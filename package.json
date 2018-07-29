@@ -5,8 +5,7 @@
     "main": "server/service.js",
     "scripts": {
         "test": "nyc mocha --recursive test",
-        "start": "node bin/run",
-        "eslint": "eslint --init"
+        "start": "node bin/run"
     },
     "author": "",
     "license": "ISC",
