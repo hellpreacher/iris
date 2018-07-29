@@ -5,7 +5,8 @@
     "main": "server/service.js",
     "scripts": {
         "test": "nyc mocha --recursive test",
-        "start": "node bin/run"
+        "start": "node bin/run",
+        "eslint": "eslint --init"
     },
     "author": "",
     "license": "ISC",
@@ -16,6 +17,7 @@
         "superagent": "^2.2.0"
     },
     "devDependencies": {
+        "eslint": "^5.2.0",
         "mocha": "^5.2.0",
         "nyc": "^12.0.2",
         "should": "^13.2.2",
